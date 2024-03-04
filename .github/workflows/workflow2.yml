@@ -7,6 +7,6 @@ jobs:
   call-reusable-workflow:
     uses: ./.github/workflows/reusable.yml
     with:
-      public-value: Hello
+      public-value: Hello 2
     secrets:
       secret-value: World 2
