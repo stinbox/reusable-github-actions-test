@@ -10,3 +10,10 @@ jobs:
       public-value: Hello 1
     secrets:
       secret-value: World 1
+
+  call-reusable-nested:
+    uses: ./.github/workflows/reusable/nested.yml
+    with:
+      public-value: Hello nested
+    secrets:
+      secret-value: World nested
